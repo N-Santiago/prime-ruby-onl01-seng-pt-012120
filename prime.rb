@@ -1,8 +1,7 @@
 def prime?(n)
-  if value <= 1 
+ if value <= 1 || value == 0 || value == 1
     return false
-  elsif n <= 3
-    return true
+  elsif
 (2..Math.sqrt(num)).each do |n|
    return false if num % n == 0
   end
