@@ -4,3 +4,5 @@ def prime?(num)
   end
   true
 end
+
+is_prime(4)
